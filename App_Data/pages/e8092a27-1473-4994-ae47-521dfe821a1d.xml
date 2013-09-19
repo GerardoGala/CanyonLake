@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>Home</title>
+  <description />
+  <content>&lt;p&gt;Welcome to Sailing Canyon Lake! Our goal is to help you enjoy sailing. We are here at the lake for your convenience.&lt;/p&gt;
+&lt;p&gt;Thinking of buying a boat? &lt;a title="For rent" href="page/For-Rent.aspx" target="_parent"&gt;Rent our boats&lt;/a&gt; first so you can make a wise decision.&lt;/p&gt;
+&lt;p&gt;Visiting Canyon Lake? We'll meet you at the lake with one of our boats all rigged and ready to sail.&lt;/p&gt;
+&lt;p&gt;Need to fix your sail? We offer &lt;a title="Canvas &amp;amp; Sail Repair" href="page/Canvas-Sail-Repair.aspx" target="_top"&gt;canvas and sail repair&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See you at the lake!&lt;/p&gt;
+&lt;p&gt;&lt;img src="/image.axd?picture=2011%2f6%2fGerardoOnJ24.jpg" alt="" width="650" height="431" /&gt;&lt;/p&gt;</content>
+  <keywords />
+  <slug>Home</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>True</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <datecreated>2011-06-15 23:28:25</datecreated>
+  <datemodified>2011-09-06 19:39:21</datemodified>
+</page>

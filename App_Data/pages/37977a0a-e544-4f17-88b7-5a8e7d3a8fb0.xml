@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>Home</title>
+  <description />
+  <content>&lt;p&gt;Our goal is to help you enjoy sailing in Canyon Lake.&lt;/p&gt;
+&lt;p&gt;We have boats for rent and boat for sale. And we have sailing instructors to help you get started with your sailing.&lt;/p&gt;
+&lt;p&gt;[video src="http://dotnetblogengine.net/media/blogengine-welcome.mp4" type="video/mp4" width="600" height="480"]&lt;/p&gt;</content>
+  <keywords />
+  <slug>Home</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isdeleted>True</isdeleted>
+  <datecreated>2011-06-15 23:28:24</datecreated>
+  <datemodified>2011-06-15 23:29:34</datemodified>
+</page>

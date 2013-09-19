@@ -1,0 +1,101 @@
+﻿#region Using
+
+using System;
+using System.Collections;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+using BlogEngine.Core;
+using BlogEngine.Core.Web.Controls;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
+
+#endregion
+
+public partial class concatenator : BlogBasePage
+{
+    protected override void OnInit(EventArgs e)
+    {
+        System.Web.UI.Page pg = (System.Web.UI.Page)HttpContext.Current.CurrentHandler;
+        HtmlLink link = new HtmlLink();
+        link.Attributes.Add("href", "stylePage.css");
+        link.Attributes.Add("media", "screen");
+        link.Attributes.Add("rel", "stylesheet");
+        link.Attributes.Add("type", "text/css");
+        pg.Header.Controls.Add(link);
+    }
+
+
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!Page.IsPostBack)
+        {
+
+            Control apartmentDiv = Page.FindControl("ApartmentDiv");
+            if (apartmentDiv != null)
+                apartmentDiv.Visible = true;
+
+            Control commercialDiv = Page.FindControl("CommercialDiv");
+            if (commercialDiv != null)
+                commercialDiv.Visible = false;
+
+            ApartmentTextBox1.Text = "";
+            ApartmentTextBox2.Text = "";
+            ApartmentTextBox3.Text = "";
+            ApartmentTextBox4.Text = "";
+            ApartmentTextBox5.Text = "";
+            ApartmentTextBox6.Text = "";
+            ApartmentTextBox7.Text = "";
+        }
+    }
+    protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        if (ListBox1.SelectedValue == "Apartment")
+        {
+            Control apartmentDiv = Page.FindControl("ApartmentDiv");
+            if (apartmentDiv != null)
+                apartmentDiv.Visible = true;
+
+            Control commercialDiv = Page.FindControl("CommercialDiv");
+            if (commercialDiv != null)
+                commercialDiv.Visible = false;
+        }
+        if (ListBox1.SelectedValue == "Commercial")
+        {
+            Control apartmentDiv = Page.FindControl("ApartmentDiv");
+            if (apartmentDiv != null)
+                apartmentDiv.Visible = false;
+
+            Control commercialDiv = Page.FindControl("CommercialDiv");
+            if (commercialDiv != null)
+                commercialDiv.Visible = true;
+        }
+    }
+
+
+    protected void ApartmentButton_Click(object sender, EventArgs e)
+    {
+        string newText = "";
+        newText = newText + ApartmentTextBox1.Text.PadLeft(10);
+        newText = newText + ApartmentTextBox2.Text.PadLeft(20);
+        newText = newText + ApartmentTextBox3.Text.PadLeft(6);
+        newText = newText + ApartmentTextBox4.Text.PadLeft(6);
+        newText = newText + ApartmentTextBox5.Text.PadLeft(30);
+        newText = newText + ApartmentTextBox6.Text.PadLeft(2);
+        newText = newText + ApartmentTextBox7.Text.PadLeft(5);
+        TextBox1.Text = TextBox1.Text + System.Environment.NewLine + newText;
+        ApartmentTextBox1.Text = "";
+        ApartmentTextBox2.Text = "";
+        ApartmentTextBox3.Text = "";
+        ApartmentTextBox4.Text = "";
+        ApartmentTextBox5.Text = "";
+        ApartmentTextBox6.Text = "";
+        ApartmentTextBox7.Text = "";
+    }
+
+    protected void CopyButton_Click(object sender, EventArgs e)
+    {
+    }
+}

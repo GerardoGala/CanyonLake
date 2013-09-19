@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Records>
+  <Apartments>
+    <ID>10</ID>
+    <Filler1>5</Filler1>
+    <ApartmentNameComplex>20</ApartmentNameComplex>
+    <NoOfResidents>6</NoOfResidents>
+    <NoOfVacancies>6</NoOfVacancies>
+    <Address>30</Address>
+    <City>30</City>
+    <State>2</State>
+    <Zip>6</Zip>
+    <Filler2>20</Filler2>
+  </Apartments>
+  <Commercial>
+    <ID>10</ID>
+    <Filler1>5</Filler1>
+    <Address>30</Address>
+    <City>30</City>
+    <State>2</State>
+    <Zip>6</Zip>
+    <Filler2>20</Filler2>
+    <Date>8</Date>
+    <Time>4</Time>
+  </Commercial>
+</Records>

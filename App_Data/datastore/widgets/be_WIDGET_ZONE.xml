@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widgets>
+  <widget id="8d798325-0bce-4467-998e-330ebfff10b4" title="Search" showTitle="True">Search</widget>
+  <widget id="7e458048-6acc-4c95-a19a-761aa09e1f80" title="Category list" showTitle="True">Category list</widget>
+  <widget id="29412bd3-94ad-41e4-ab30-50d1ed501d75" title="Tag cloud" showTitle="True">Tag cloud</widget>
+</widgets>

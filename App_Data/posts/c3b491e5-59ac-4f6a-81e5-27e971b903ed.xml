@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>Admin</author>
+  <title>Welcome toSailing Canyon Lake</title>
+  <description>The description is used as the meta description as well as shown in the related posts. It is recommended that you write a description, but not mandatory</description>
+  <content>&lt;p&gt;Our goal is to help you enjoy sailing in Canyon Lake.&lt;/p&gt;
+&lt;p&gt;We have boats for rent and boat for sale. And we have sailing instructors to help you get started with your sailing.&lt;/p&gt;
+&lt;p&gt;[video src="http://dotnetblogengine.net/media/blogengine-welcome.mp4" type="video/mp4" width="600" height="480"]&lt;/p&gt;</content>
+  <ispublished>False</ispublished>
+  <isdeleted>True</isdeleted>
+  <iscommentsenabled>False</iscommentsenabled>
+  <pubDate>2010-11-13 00:00:00</pubDate>
+  <lastModified>2011-07-11 14:14:08</lastModified>
+  <raters>5</raters>
+  <rating>4.24</rating>
+  <slug>Welcome-to-BlogEngineNET-2-0</slug>
+  <tags>
+    <tag>blog</tag>
+    <tag>welcome</tag>
+  </tags>
+  <comments>
+    <comment id="82c3783e-5ea4-4a6e-b5b2-55d53da0a6c6" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
+      <date>2010-01-03 17:58:00</date>
+      <author>Visitor 1</author>
+      <email>post@example.com</email>
+      <country>be</country>
+      <ip>127.0.0.1</ip>
+      <content>comment 1</content>
+    </comment>
+    <comment id="20574909-b777-4246-9b15-d70a3a795fcc" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
+      <date>2010-01-15 17:01:59</date>
+      <author>Visitor 2</author>
+      <email>post@example.com</email>
+      <country />
+      <ip>127.0.0.1</ip>
+      <content>comment 2</content>
+    </comment>
+    <comment id="72484d70-ac56-4753-b4c1-7d34ee11e7d6" parentid="82c3783e-5ea4-4a6e-b5b2-55d53da0a6c6" approved="True" spam="False" deleted="True">
+      <date>2010-01-15 17:02:13</date>
+      <author>Admin</author>
+      <email>post@example.com</email>
+      <country />
+      <ip>127.0.0.1</ip>
+      <content>comment 3</content>
+    </comment>
+  </comments>
+  <categories />
+  <notifications />
+</post>

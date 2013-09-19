@@ -1,0 +1,20 @@
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 6/15/2011 11:54:40 PM
+Contents Below
+Error sending email in SendMailMessage:  Failure sending mail. The remote name could not be resolved: 'mail.example.com'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 9/8/2011 3:00:50 AM
+Contents Below
+Admin.AjaxHelper.SavePost(): The process cannot access the file 'E:\kunden\homepages\43\d355228205\www\App_Data\posts\73e5a699-8660-4ad5-8c79-12caacba3d51.xml' because it is being used by another process.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 9/8/2011 3:00:50 AM
+Contents Below
+Admin.AjaxHelper.SavePost(): The process cannot access the file 'E:\kunden\homepages\43\d355228205\www\App_Data\posts\73e5a699-8660-4ad5-8c79-12caacba3d51.xml' because it is being used by another process.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 9/8/2011 3:00:50 AM
+Contents Below
+Admin.AjaxHelper.SavePost(): The process cannot access the file 'E:\kunden\homepages\43\d355228205\www\App_Data\posts\73e5a699-8660-4ad5-8c79-12caacba3d51.xml' because it is being used by another process.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Date: 9/23/2011 1:36:59 PM
+Contents Below
+Admin.AjaxHelper.SavePage(): The process cannot access the file 'E:\kunden\homepages\43\d355228205\www\App_Data\pages\ea3fe487-17f6-4678-b899-412814e89a77.xml' because it is being used by another process.

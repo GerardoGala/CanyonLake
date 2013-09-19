@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="StandardSite" %>
+<%@ Import Namespace="BlogEngine.Core" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head runat="server" profile="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="~/pics/blogengine.ico" type="image/x-icon"/>
+</head>
+<body>
+
+    <div id="header">
+    </div>
+  
+    <div id="menu">
+        <ul>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>page/Home.aspx">Home</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>page/For-Rent.aspx">For Rent</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>page/Instructors.aspx">Instructors</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>page/Trophies.aspx">Trophies</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>page/Canvas-Sail-Repair.aspx">Canvas & Sail Repair</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>Location.aspx">Location</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>contact.aspx">Contact</a></li>
+              <li><a href="<%=Utils.AbsoluteWebRoot %>blog.aspx">Blog</a></li>
+        </ul>
+    </div>
+  
+  <form runat="Server" class="body">
+    
+    <div id="content">
+      <blog:SearchOnSearch runat="server" MaxResults="3" Headline="You searched for" Text="Here are some results for the search term on this website" />
+      <asp:ContentPlaceHolder ID="cphBody" runat="server" />
+      
+      <p id="footer">
+        Powered by <a href="http://www.dotnetblogengine.net">BlogEngine.NET</a> <%=BlogSettings.Instance.Version() %><br />
+        Theme by <a href="http://madskristensen.net">Mads Kristensen</a>
+      </p>
+    </div>
+
+
+    
+  </form>
+  
+</body>
+</html>

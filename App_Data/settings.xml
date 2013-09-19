@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <allowservertodownloadremotefiles>False</allowservertodownloadremotefiles>
+  <themecookiename>theme</themecookiename>
+  <administratorrole>Administrators</administratorrole>
+  <trackingscript />
+  <numberofreferrerdays>1</numberofreferrerdays>
+  <showdescriptioninpostlist>False</showdescriptioninpostlist>
+  <theme>Standard</theme>
+  <blockauthoroncommentdelete>False</blockauthoroncommentdelete>
+  <mobiletheme>Standard</mobiletheme>
+  <blogrollvisibleposts>3</blogrollvisibleposts>
+  <dayscommentsareenabled>0</dayscommentsareenabled>
+  <descriptioncharacters>300</descriptioncharacters>
+  <searchbuttontext>Search</searchbuttontext>
+  <editorsrole>Editors</editorsrole>
+  <remotefiledownloadtimeout>30000</remotefiledownloadtimeout>
+  <enablecontactattachments>True</enablecontactattachments>
+  <enableselfregistration>True</enableselfregistration>
+  <endorsement>http://www.dotnetblogengine.net/syndication.axd</endorsement>
+  <enabletrackbacksend>False</enabletrackbacksend>
+  <emailsubjectprefix>Weblog</emailsubjectprefix>
+  <enablepasswordreset>True</enablepasswordreset>
+  <smtpusername>gerardo@sailingcanyonlake.com</smtpusername>
+  <disqusdevmode>False</disqusdevmode>
+  <enablerating>False</enablerating>
+  <commentsperpage>10</commentsperpage>
+  <iscommentsenabled>False</iscommentsenabled>
+  <description>Sail it before you buy in - here on the waters of Canyon Lake!</description>
+  <moderationtype>Disqus</moderationtype>
+  <displaycommentsonrecentposts>True</displaycommentsonrecentposts>
+  <storagelocation>~/App_Data/</storagelocation>
+  <name>SailingCanyonLake</name>
+  <email>gerardo@sailingcanyonlake.com</email>
+  <anonymousrole>Anonymous</anonymousrole>
+  <descriptioncharactersforpostsbytagorcategory>20</descriptioncharactersforpostsbytagorcategory>
+  <sendmailoncomment>True</sendmailoncomment>
+  <showdescriptioninpostlistforpostsbytagorcategory>False</showdescriptioninpostlistforpostsbytagorcategory>
+  <commentwhitelistcount>1</commentwhitelistcount>
+  <htmlheader />
+  <postsperfeed>10</postsperfeed>
+  <useblognameinpagetitles>True</useblognameinpagetitles>
+  <enablepingbackreceive>False</enablepingbackreceive>
+  <enablehttpcompression>True</enablehttpcompression>
+  <authorname>Gerardo Gala</authorname>
+  <numberofrecentposts>10</numberofrecentposts>
+  <culture>Auto</culture>
+  <enablerecaptchaoncontactform>False</enablerecaptchaoncontactform>
+  <enablereferrertracking>False</enablereferrertracking>
+  <enablerelatedposts>False</enablerelatedposts>
+  <smtpserverport>25</smtpserverport>
+  <showlivepreview>True</showlivepreview>
+  <enablepingbacksend>False</enablepingbacksend>
+  <blogrollupdateminutes>60</blogrollupdateminutes>
+  <enabletrackbackreceive>False</enabletrackbackreceive>
+  <avatar>monster</avatar>
+  <addiptoblacklistfilteronrejection>True</addiptoblacklistfilteronrejection>
+  <smtpserver>smtp.1and1.com</smtpserver>
+  <enableenclosures>False</enableenclosures>
+  <trustauthenticatedusers>True</trustauthenticatedusers>
+  <enableopensearch>True</enableopensearch>
+  <displayratingsonrecentposts>True</displayratingsonrecentposts>
+  <disquswebsitename>SailingCanyonLake</disquswebsitename>
+  <searchdefaulttext>Enter search term or APML url</searchdefaulttext>
+  <enablecommentsearch>True</enablecommentsearch>
+  <commentreportmistakes>False</commentreportmistakes>
+  <geocodinglatitude>12.12</geocodinglatitude>
+  <syndicationformat>Rss</syndicationformat>
+  <geocodinglongitude>12.12</geocodinglongitude>
+  <timezone>0</timezone>
+  <contactformmessage>&lt;p&gt;I'll answer the mail as soon as I can.&lt;/p&gt;</contactformmessage>
+  <showpostnavigation>True</showpostnavigation>
+  <searchcommentlabeltext>Include comments in search</searchcommentlabeltext>
+  <postsperpage>10</postsperpage>
+  <enablecountryincomments>True</enablecountryincomments>
+  <timestamppostlinks>True</timestamppostlinks>
+  <remotemaxfilesize>524288</remotemaxfilesize>
+  <iscommentnestingenabled>False</iscommentnestingenabled>
+  <numberofrecentcomments>10</numberofrecentcomments>
+  <language>en-US</language>
+  <showpingbacks>False</showpingbacks>
+  <addiptowhitelistfilteronapproval>True</addiptowhitelistfilteronapproval>
+  <compresswebresource>True</compresswebresource>
+  <alternatefeedurl />
+  <commentblacklistcount>2</commentblacklistcount>
+  <requiresslmetaweblogapi>False</requiresslmetaweblogapi>
+  <removewhitespaceinstylesheets>True</removewhitespaceinstylesheets>
+  <selfregistrationinitialrole>Editors</selfregistrationinitialrole>
+  <feedauthor>gerardo@SailingCanyonLake.com</feedauthor>
+  <disqusaddcommentstopages>True</disqusaddcommentstopages>
+  <smtppassword>francis0131</smtppassword>
+  <enablecommentsmoderation>False</enablecommentsmoderation>
+  <handlewwwsubdomain />
+  <contactthankmessage>&lt;h1&gt;Thank you&lt;/h1&gt;&lt;p&gt;The message was sent.&lt;/p&gt;</contactthankmessage>
+  <fileextension>.aspx</fileextension>
+  <iscocommentenabled>False</iscocommentenabled>
+  <enablessl>False</enablessl>
+  <enableerrorlogging>False</enableerrorlogging>
+  <blogrollmaxlength>23</blogrollmaxlength>
+</settings>
